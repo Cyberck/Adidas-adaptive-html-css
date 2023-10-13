@@ -1,0 +1,91 @@
+@import url(fonts.css);
+
+
+/* **** main start **** */
+
+
+.main {
+    margin: 40px 0;
+}
+
+.main-items {
+    margin-top: 40px;
+}
+
+.main-box__title {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'RSB';
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.main-box__img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.main-box__text {
+    display: grid;
+    row-gap: 18px;
+    margin-bottom: 40px;
+}
+
+.main-items__title {
+    margin-bottom: 40px;
+    color: #000;
+    font-family: 'RB';
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.main-text__first {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.main-text__second {
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.main-items__lists {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.main-lists__one li {
+    margin-bottom: 14px;
+}
+
+.main-lists__link {
+    color: #000;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+@media (max-width: 650px) {
+    .main-items__lists {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+@media (max-width: 450px) {
+    .main-text__first {
+        text-align: justify;
+    }
+    
+    .main-text__second {
+        text-align: justify;
+    }
+}
+
+
+}

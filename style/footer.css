@@ -1,0 +1,39 @@
+@import url(fonts.css);
+
+
+/* *** footer start *** */
+
+
+.footer {
+    display: flex;
+    background: #181D28;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.footer-list__link {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media (max-width: 450px) {
+    .footer-list {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
